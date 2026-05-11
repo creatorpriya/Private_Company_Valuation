@@ -1,0 +1,30 @@
+{
+  "name": "forgeglobal-scraper",
+  "version": "1.0.0",
+  "description": "Scraper for ForgeGlobal Unicorn Companies",
+  "main": "forgeglobal.js",
+  "type": "module",
+  "scripts": {
+    "start": "node forgeglobal.js",
+    "dev": "nodemon forgeglobal.js"
+  },
+  "keywords": [
+    "puppeteer",
+    "scraper",
+    "cheerio",
+    "forgeglobal",
+    "unicorn"
+  ],
+  "author": "Priya Kumari",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.15.0",
+    "cheerio": "^1.1.2",
+    "mongodb": "^6.21.0",
+    "p-limit": "^7.1.0",
+    "puppeteer": "^24.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
